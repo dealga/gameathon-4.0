@@ -1,0 +1,33 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Avoid tracking auto-generated files
+[Aa]ssets/**/*.cs.meta
+[Aa]ssets/**/*.prefab.meta
+[Aa]ssets/**/*.unity.meta
+[Pp]ackages/packages-lock.json
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+.*.swp
+._*~
+~$*
+
+# End of .gitignore
